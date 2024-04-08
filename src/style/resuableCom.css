@@ -1,0 +1,29 @@
+.big-box-reuseable {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+.reuse-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.reuse-box p {
+  margin: 0px;
+  font-size: 14px;
+  color: grey;
+  display: flex;
+  flex-flow: row wrap;
+  margin: 0px 20px;
+}
+
+.reuse-box h3 {
+  font-weight: 600;
+}
+
+@media (max-width: 400px) {
+  .reuse-box p {
+    margin: 0px 3px;
+  }
+}

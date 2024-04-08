@@ -1,0 +1,66 @@
+.app-features {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 20px;
+  margin-top: 30px;
+}
+
+.dil {
+  color: rgb(239 68 68);
+}
+.underline {
+  width: 100px;
+  height: 5px !important;
+  margin: 0px;
+  background-color: rgb(212, 1, 1);
+}
+.features {
+  margin: 10px;
+  gap: 25px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+}
+.features .oneAction {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 80%;
+  align-items: center;
+  border: 1px solid rgb(198, 196, 196);
+  padding: 5px;
+  border-radius: 5px;
+}
+.features .oneAction .actions-type {
+  margin: 0px;
+}
+.features .oneAction div {
+  font-size: 17px;
+}
+
+@media (max-width: 1000px) {
+  .features {
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    gap: 4px;
+  }
+  .features .oneAction {
+    width: 95%;
+  }
+  .full-width-last-child {
+    grid-column: 1 / 3;
+  }
+}
+
+@media (max-width: 600px) {
+  .features {
+    grid-template-columns: 1fr !important;
+    justify-items: center;
+    gap: 4px;
+  }
+  .full-width-last-child {
+    grid-column: 1 /2;
+  }
+}

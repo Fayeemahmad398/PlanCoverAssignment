@@ -1,0 +1,11 @@
+.over-big-box {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.over-view-img {
+  width: 100%;
+  height: 100%;
+}

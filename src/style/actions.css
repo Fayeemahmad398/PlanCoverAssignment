@@ -1,0 +1,45 @@
+.actions-box {
+  display: flex;
+  justify-content: center;
+  gap: 150px;
+  margin-top: 80px;
+}
+.icons-actions {
+  font-size: 30px;
+}
+
+.oneAction {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  margin-top: 5px;
+}
+.counts {
+  font-size: 21px;
+  color: rgb(239 68 68);
+}
+.acions-type {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: grey;
+}
+
+@media (max-width: 700px) {
+  .actions-box {
+    margin-top: 250px;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr;
+  }
+  .counts {
+    font-size: large;
+  }
+}
+
+@media (max-width: 400px) {
+  .actions-box {
+    margin-top: 330px;
+  }
+}
