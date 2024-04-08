@@ -90,13 +90,19 @@
     /* justify-items: center; */
   }
   .right-box-footer {
+    width: 100% !important;
     margin-top: 20px;
+    align-items: flex-start;
   }
   .office-contact-box {
     margin-top: 20px;
+    width: 100% !important;
   }
   .subscribe-section{
     padding-top: 10px;
     padding-left: 30px;
-  } 
+  }
+  .subscribe-section h3{
+    font-size: 17px;
+  }
 }

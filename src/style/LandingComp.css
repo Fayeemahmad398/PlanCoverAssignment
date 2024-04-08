@@ -72,7 +72,7 @@ p {
 @media (max-width: 700px) {
   .img-content-box {
     flex-direction: column;
-    top: 100px !important;
+    top: 180px !important;
     padding: 5px;
   }
   .application-head {

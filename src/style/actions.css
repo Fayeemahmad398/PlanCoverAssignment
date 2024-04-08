@@ -40,6 +40,12 @@
 
 @media (max-width: 400px) {
   .actions-box {
-    margin-top: 330px;
+    margin-top: 400px;
+  }
+  .acions-type {
+    font-size: 12px !important;
+  }
+  .counts{
+    font-size: 15px !important;
   }
 }
