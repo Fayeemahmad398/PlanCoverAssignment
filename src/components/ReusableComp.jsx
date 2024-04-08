@@ -7,10 +7,10 @@ function ReusableComp({ heading }) {
             <div className="reuse-box">
                 <h3>{heading}</h3>
                 <hr className="underline" />
-                <p>Lorem ipsum dolor, sit  ,conse ctetur
-                    officia.
+                <p>Lorem ipsum dolor, sit  ,ctetur
+                    
                 </p>
-                <p>Lorem ipsum ,  sec tetur
+                <p>Lorem ipsum ,   tetur
                     officia.
                 </p>
             </div>

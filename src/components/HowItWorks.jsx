@@ -45,7 +45,7 @@ function HowItWorks() {
                                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt, obcaecati vero rem porro veniam repudiandae.</p>
                             </div>
                         </div>
-                        <div className="one-box-works">
+                        <div className="one-box-works last-dark">
                             <div className="icon-of-one-works">
                                 <IoCheckmarkCircleSharp className="tick-icons" />
                             </div>

@@ -28,8 +28,10 @@ function Subscribe() {
                 </form>
             </div>
             <div className="footer-lower-part">
-                <FooterPart />
-                <FooterPart />
+                <FooterPart textData={"Our office "}
+                    address={"3rd floor  atlantic 4949"} />
+                <FooterPart textData={"Our Contact "}
+                    address={"5rd New York  4949"} />
                 <div className="right-box-footer">
                     <div className="window-sec">
                         <div>
@@ -52,7 +54,7 @@ function Subscribe() {
                         <div>
                             Download app from
                         </div>
-                        <FaApple style={{ fontSize: "22px" }} />                    </div>
+                        <FaApple style={{ fontSize: "22px" }} /></div>
                     <div className="footer-lower-box">
                         <div>Support :24/7 </div>
                         <div>

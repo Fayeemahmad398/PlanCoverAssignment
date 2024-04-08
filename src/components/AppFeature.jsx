@@ -15,12 +15,12 @@ function AppFeature() {
                         CREATIVE DESIGN
                     </div>
                     <div className="acions-type">Lorem dolor sit amet
-                        consectetur
+                        
                         elit.
                     </div>
                     <div className="acions-type">
                         adipisicing
-                        Fugiat, asperiores!</div>
+                        Fug iores!</div>
                 </div>
                 <div className="oneAction">
                     <FaHeart className="icons-actions dil" />
@@ -28,11 +28,11 @@ function AppFeature() {
                         LOVELY APP
                     </div>
                     <div className="acions-type">Lorem dolor sit amet
-                        conse ctetur
-                        elit.
+                        
+                        
                     </div>
                     <div className="acions-type">
-                        adipi sicing
+                        sicing
                         Fugiat, asper iores!</div>
                 </div>
                 <div className="oneAction full-width-last-child">
@@ -41,11 +41,11 @@ function AppFeature() {
                         EASY CUSTOMIZE
                     </div>
                     <div className="acions-type">Lorem dolor sit amet
-                        conse ctetur
+                        
                         elit.
                     </div>
                     <div className="acions-type">
-                        adipi sicing
+                        sicing
                         Fugiat, asper iores!</div>
                 </div>
 

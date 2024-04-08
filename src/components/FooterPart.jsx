@@ -1,10 +1,11 @@
+/* eslint-disable react/prop-types */
 
-function FooterPart() {
+function FooterPart({textData,address}) {
     return (
         <div className="office-contact-box">
-            <div>Our office</div>
+            <div>{textData}</div>
             <div>
-                3rd flour state house road
+                {address}
             </div>
             <div>City atlantica 3303</div>
         </div>

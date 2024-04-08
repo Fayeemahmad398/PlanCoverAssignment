@@ -87,7 +87,7 @@
   .footer-lower-part {
     display: grid;
     grid-template-columns: 1fr;
-    justify-items: center;
+    /* justify-items: center; */
   }
   .right-box-footer {
     margin-top: 20px;
